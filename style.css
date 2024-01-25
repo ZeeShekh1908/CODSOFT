@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    color: white;
+    /* display: flex; */
+}
+.container img{
+    margin:0;
+    padding: 0;
+    height: 4rem;
+    width: 4rem;
+    object-fit: contain;
+}
+.container p{
+    margin: 0;
+    padding: 0;
+}
+.items li{
+    display: inline;
+    padding: 2rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
