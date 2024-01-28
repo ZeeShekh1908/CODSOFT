@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:#010101;
+}
+.container{
+    flex-wrap: wrap;
+}
+img{
+    float: right;
+    height: 35rem;
+    width: 35rem;
+    padding-top: 0;
+    padding: 6rem;
+    border-radius: 20rem 20rem 0 0;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+      
+}
+
+.myinfo{
+    color: white;
+    padding-top: 10rem;
+    padding-left: 10rem;
+    line-height: 4.5rem;
+}
+.myinfo h2{
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(20, 106, 234);
+    font-size: 4rem;
+    font-weight: bolder;
+}
+.myinfo p{
+    font-family: 'Satisfy', cursive;
+    font-size: 1.3rem;
+}
+.btn1,.btn2{
+    padding: 1rem 2rem 1rem 2rem;
+    color: white;
+    margin: 2rem;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 2px solid  rgb(20, 106, 234);
+}
+.btn1{
+    background-color:rgb(20, 106, 234);
+    
+}
+.btn1:hover{
+    font-weight: bolder;
+    border: 3px solid  rgb(20, 106, 234);
+    cursor: pointer;
+    color: rgb(13, 11, 11);
+    background-color: skyblue;
+}
+.btn2:hover{
+    font-weight: bolder;
+    border: 3px solid  rgb(20, 106, 234);
+    cursor: pointer;
+    color: grey;
+}
+.skills img{
+    float: right;
+    object-fit: contain;
+    height: 30rem;
+    width: 30rem;
+    padding-top: 0;
+    padding-right: 0;
+    opacity: 0.5;
+    border-bottom-right-radius: 3rem;
+}
+.skills img:hover{
+    opacity: 1;
+}
+.skills{
+    color: white;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    padding:5rem 0 0 10rem;
+}
+.skills h3{
+    padding-bottom: 2rem;
+    font-size:3rem ;
+    font-family: 'Poor Story', system-ui;    
+}
+.skills h3:hover{
+    text-decoration: underline rgb(20, 106, 234);
+}
+
+.skills p{
+    line-height: 3rem;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+}
+.skills i{
+    color:rgb(20, 106, 234);
+}
+.con2{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.p1{
+    border: 2px solid white;
+    height: 25rem;
+    width: 25rem;
+    margin: 2rem;
+    background-color: white;
+}
+.p2{
+    border: 2px solid white;
+    height: 25rem;
+    width: 25rem;
+    margin: 2rem;
+    background-color: white;
+}
+.p3{
+    border: 2px solid white;
+    height: 25rem;
+    width: 25rem;
+    margin: 2rem;
+    background-color: white;
+}
+.head2 h2{
+    color: white;
+    padding: 4rem 0 2rem 11rem;
+    font-size:3rem ;
+    font-family: 'Poor Story', system-ui;  
+}
+.head2 i{
+    color: rgb(20, 106, 234);
+}
+.p1 img{
+    object-fit: contain;
+    height: 20rem;
+    width: 25rem;
+    border-radius: 0;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+.p2 img{
+    object-fit: contain;
+    height: 20rem;
+    width: 25rem;
+    border-radius: 0;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+.p3 img{
+    object-fit: contain;
+    height: 20rem;
+    width: 25rem;
+    border-radius: 0;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+.con2 p{
+    background-color: white;
+    font-family: 'Satisfy', cursive;
+    color:rgb(20, 106, 234) ;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 4rem;
+    font-weight: bold;
+}
+.p1:hover{
+    border:4px solid rgb(20, 106, 234);
+    cursor: pointer;
+}
+.p2:hover{
+    border:4px solid rgb(20, 106, 234);
+    cursor: pointer;
+}
+.p3:hover{
+    border:4px solid rgb(20, 106, 234);
+    cursor: pointer;
+}
+.see{
+    color:rgb(20, 106, 234);
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    font-family: Arial, Helvetica, sans-serif
+}
+.see button{
+    background-color: white;
+    font-size: 2rem;
+    color:rgb(20, 106, 234);
+    border-radius: 2rem;
+    padding: 1rem 2rem 1rem 2rem;
+    flex-wrap: wrap;
+    border: none;
+}
+.see button:hover{
+    background-color: rgb(147, 217, 250);
+    border:2px solid blue;
+    cursor: pointer;
+}
+.see i{
+    font-size: 1.7rem;
+    background-color: white;
+}
+.see i:hover{
+    background-color: rgb(147, 217, 250);
+}
+.see:hover{
+    cursor: pointer;
+}
+.head2 h2:hover{
+    text-decoration: underline rgb(20, 106, 234);
+}
+.head3 h2{
+    color: white;
+    padding: 4rem 0 2rem 11rem;
+    font-size:3rem ;
+    font-family: 'Poor Story', system-ui;  
+}
+.head3 i{
+    color: rgb(20, 106, 234);
+}
+.c1{
+    border: 2px solid white;
+    height: 25rem;
+    width: 25rem;
+    margin: 2rem;
+    background-color: white;
+}
+.c2{
+    border: 2px solid white;
+    height: 25rem;
+    width: 25rem;
+    margin: 2rem;
+    background-color: white;
+}
+.c3{
+    border: 2px solid white;
+    height: 25rem;
+    width: 25rem;
+    margin: 2rem;
+    background-color: white;
+}
+.c1 img{
+    object-fit: contain;
+    height: 20rem;
+    width: 25rem;
+    border-radius: 0;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+.c2 img{
+    object-fit: contain;
+    height: 20rem;
+    width: 25rem;
+    border-radius: 0;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+.c3 img{
+    object-fit: contain;
+    height: 20rem;
+    width: 25rem;
+    border-radius: 0;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+.con3{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.con3 p{
+    background-color: white;
+    font-family: 'Satisfy', cursive;
+    color:rgb(20, 106, 234) ;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 4rem;
+    font-weight: bold;
+}
+.c1:hover{
+    border:4px solid rgb(20, 106, 234);
+    cursor: pointer;
+}
+.c2:hover{
+    border:4px solid rgb(20, 106, 234);
+    cursor: pointer;
+}
+.c3:hover{
+    border:4px solid rgb(20, 106, 234);
+    cursor: pointer;
+}
+.head3 h2:hover{
+    text-decoration: underline rgb(20, 106, 234);
+}
+.head4 h2{
+    color: white;
+    padding: 4rem 0 2rem 11rem;
+    font-size:3rem ;
+    font-family: 'Poor Story', system-ui;  
+}
+.head4 i{
+    color: rgb(20, 106, 234);
+}
+.head5 h2{
+    color: white;
+    padding: 4rem 0 2rem 11rem;
+    font-size:3rem ;
+    font-family: 'Poor Story', system-ui;  
+}
+.head5 i{
+    color: rgb(20, 106, 234);
+}
+.head4 h2:hover{
+    text-decoration: underline rgb(20, 106, 234);
+}
+.head5 h2:hover{
+    text-decoration: underline rgb(20, 106, 234);
+}
+.contact p{
+    color: white;
+    padding-left: 15rem;
+    line-height: 2rem;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.mail i{
+    color: rgb(235, 55, 55);
+}
+.phone i{
+    color: blue;
+}
+.links p{
+    color: white;
+    padding-left: 15rem;
+    line-height: 2rem;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.links p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.linkedin i{
+    color: rgb(23, 46, 245);
+    background-color: white;
+    
+}
+.git i{
+    color: white;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 2rem;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
