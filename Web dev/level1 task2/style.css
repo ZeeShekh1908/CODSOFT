@@ -6,13 +6,21 @@
 .container{
     flex-wrap: wrap;
 }
-img{
+.img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     float: right;
-    height: 35rem;
-    width: 35rem;
-    padding-top: 0;
-    padding: 6rem;
-    border-radius: 20rem 20rem 0 0;
+    width: 22rem;
+    margin-top: 6rem;
+    margin-left: 0;
+    border-radius: 40rem;
+    border: 3px solid rgb(35, 69, 235);
+}
+img{
+    /* height: auto; */
+    max-width: 100%;
+    border-radius: 62rem;
     object-fit: cover;
     transition: transform 0.5s ease;
       
@@ -136,7 +144,7 @@ img{
 }
 .p1 img{
     object-fit: contain;
-    height: 20rem;
+    height: 15rem;
     width: 25rem;
     border-radius: 0;
     background-color: white;
@@ -145,7 +153,7 @@ img{
 }
 .p2 img{
     object-fit: contain;
-    height: 20rem;
+    height: 15rem;
     width: 25rem;
     border-radius: 0;
     background-color: white;
@@ -154,7 +162,7 @@ img{
 }
 .p3 img{
     object-fit: contain;
-    height: 20rem;
+    height: 15rem;
     width: 25rem;
     border-radius: 0;
     background-color: white;
@@ -250,7 +258,7 @@ img{
 }
 .c1 img{
     object-fit: contain;
-    height: 20rem;
+    height: 15rem;
     width: 25rem;
     border-radius: 0;
     background-color: white;
@@ -259,7 +267,7 @@ img{
 }
 .c2 img{
     object-fit: contain;
-    height: 20rem;
+    height: 15rem;
     width: 25rem;
     border-radius: 0;
     background-color: white;
@@ -268,7 +276,7 @@ img{
 }
 .c3 img{
     object-fit: contain;
-    height: 20rem;
+    height: 15rem;
     width: 25rem;
     border-radius: 0;
     background-color: white;
@@ -331,40 +339,51 @@ img{
 .head5 h2:hover{
     text-decoration: underline rgb(20, 106, 234);
 }
-.contact p{
+.contact a{
     color: white;
     padding-left: 15rem;
     line-height: 2rem;
     font-size: 1.3rem;
     font-family: Arial, Helvetica, sans-serif;
 }
-.contact p:hover{
+.contact a{
+    color: white;
+}
+.contact a:hover{
     cursor: pointer;
     text-decoration: underline;
 }
 .mail i{
-    color: rgb(235, 55, 55);
+    color: rgb(244, 8, 8);
+    padding: 2rem 0 0 15rem;
+    font-size: 2rem;
 }
 .phone i{
-    color: blue;
+    color: rgb(54, 54, 220);
+    padding: 2rem 0 0 15rem;
+    font-size: 2rem;
 }
-.links p{
+.links a{
     color: white;
     padding-left: 15rem;
     line-height: 2rem;
     font-size: 1.3rem;
     font-family: Arial, Helvetica, sans-serif;
 }
-.links p:hover{
+.links a:hover{
     cursor: pointer;
     text-decoration: underline;
 }
 .linkedin i{
     color: rgb(23, 46, 245);
+    margin: 2rem 0 0 15rem;
+    font-size: 2rem;
     background-color: white;
     
 }
 .git i{
+    margin: 2rem 0 0 15rem;
+    font-size: 2rem;
     color: white;
 }
 .copyright{
@@ -376,3 +395,4 @@ img{
     font-size: 1.3rem;
     font-family: Arial, Helvetica, sans-serif;
 }
+
