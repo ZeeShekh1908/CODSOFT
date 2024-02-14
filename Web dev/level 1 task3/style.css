@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,13 +7,15 @@ body{
     background-color:  rgb(97, 129, 209);
 }
 h2{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: bold;
+    font-style: normal;
     font-size: 2.5rem;
     text-decoration: underline;
     text-align: center;
     background-color: rgb(97, 129, 209);
     line-height: 3rem;
-    color: rgb(2, 41, 156);
+    color: rgb(21, 21, 21);
 }
 
 .container{
@@ -21,11 +24,11 @@ h2{
     align-items: center;
     flex-wrap: wrap;
     background-color:rgb(97, 129, 209) ;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 .Calculator{
     background-color: rgb(27, 26, 26);
-    padding: 2rem;
+    padding: 1rem;
     margin: 1.5rem;
     border-radius: 1rem;
     width: 17rem;

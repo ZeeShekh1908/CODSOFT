@@ -339,6 +339,9 @@ img{
 .head5 h2:hover{
     text-decoration: underline rgb(20, 106, 234);
 }
+a{
+    text-decoration: none;
+}
 .contact a{
     color: white;
     padding-left: 15rem;
@@ -364,7 +367,7 @@ img{
     font-size: 2rem;
 }
 .links a{
-    color: white;
+    color: rgb(217, 218, 224);
     padding-left: 15rem;
     line-height: 2rem;
     font-size: 1.3rem;
